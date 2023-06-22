@@ -1,0 +1,241 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body{
+    margin: 0;
+    padding:0;
+    font-family:'å¾®è½¯é›…é»‘', Arial;
+    width: 100%;
+    background: rgb(225,225,225);
+}
+.bgimgbox{
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+  width: 100%;
+  max-height: 2000px;
+}
+.bgimgbox>img{
+  width: 100%;
+  height: 100%;
+  min-width: 1200px;
+}
+.main{
+  width: 1100px;
+  margin: 0 auto;
+}
+.logo{
+  float: left;
+  width: 250px;
+  cursor: default;
+}
+.logo>img{
+  width: 100%;
+}
+.logo>p{
+  background: white;
+  display: block;
+  width: 80px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 15px;
+  line-height: 20px;
+  border-radius: 5px;
+  margin-top: -10px;
+  padding-top: 15px;
+  font-weight: bold;
+  color: rgb(60,60,60);
+}
+.logo>p>b{
+  color: rgb(203,89,88);
+}
+.headimagebox{
+  float: right;
+  width: 650px;
+  margin-right:25px;
+}
+.headimagebox>img{
+  width: 620px;
+  height:596px;
+}
+.content{
+  cursor: default;
+  display: block;
+  float: left;
+  margin-top: -12px;
+  width: 100%;
+}
+.leftbox{
+  float: left;
+  width: 400px;
+}
+.rightbox{
+  float: right;
+  width: 700px;
+}
+.leftimgbox>img{
+  display: block;
+  width: 100%;
+}
+.headlogobox>img{
+  display: block;
+  margin: 0 auto;
+  width: 85%;
+}
+.clear{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  float: left;
+}
+.content_title{
+  padding: 20px 30px;
+  padding-top: 30px;
+  line-height: 24px;
+  font-size: 20px;
+}
+.content_title>span{
+  color: rgb(203,89,88);
+  padding-left: 10px;
+}
+.textbox>p{
+  padding: 20px 30px;
+  line-height: 24px;
+} 
+.textbox>p>b{
+  color: rgb(203,89,88);
+} 
+.textbox>p>span{
+  color: yellow;
+} 
+.line_red{
+  display: block;
+  background: rgb(203,89,88);
+  margin: 0 30px;
+  height: 4px;
+}
+.line_white{
+  display: block;
+  background: white;
+  margin: 0 30px;
+  height: 4px;
+}
+.info{
+  height: 560px;
+  background: white;
+  color: rgb(60,60,60);
+  font-weight: bold;
+}
+.support{
+  background: rgb(60,60,60);
+  color: white;
+  font-weight: bold;
+}
+.buttona{
+  display: block;
+  text-decoration:none;
+  color: white;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  margin:20px 0;
+  cursor: pointer; 
+  background:rgb(0,193,166);
+}
+.buttona:hover {
+	-moz-box-shadow:0 -7px 0 #00937e inset;             /* For Firefox3.6+ */
+	-webkit-box-shadow:0 -7px 0 #00937e inset;          /* For Chrome5+, Safari5+ */
+	box-shadow:0 -7px 0 #00937e inset;                  /* For Latest Opera */}
+
+.support>h2>span {
+    color: white;
+}
+
+.activity{
+  height: 560px;
+  background: rgb(33,150,243); 
+  color: white;
+  width: 50%;
+  font-weight: bold;
+}
+.activity>h2>span{
+  color: white;
+}
+
+.contact{
+  height: 200px;
+  background: rgb(118,189,59);
+}
+.contact>h2>span{
+  color: white;
+}
+.contact>p{
+  line-height: 26px;
+}
+.btnbox{
+  height: 560px;
+  color: white;
+  width: 50%;
+  font-weight: bold;
+}
+.downloadbtn{
+  cursor: pointer;
+  width: 100%;
+}
+.downloadbtn img{
+  display: block;
+  width: 100%;
+}
+.imagesbox{
+  background: rgb(255,171,20);
+  color: white;
+}
+.imagesbox>h2>span{
+  color: white;
+}
+.images_box{
+  overflow:hidden;
+  height:130px;
+  margin: 0 10px;
+  margin-bottom:20px;
+}
+.images_box>div>img{
+  display: block;
+  width: 100%;
+}
+.footer{
+  display: block;
+  width: 1100px;
+  background: rgb(203,89,88);
+}
+.footer>img{
+  display: block;
+  margin:0 auto;
+  height: 50px;
+  padding-top: 5px;
+}
+
+.dlqbtn {
+	width:350px;
+	height:120px;
+	display:block;
+	background:url(../images/btn_download_1.jpg) no-repeat center;}
+	.dlqbtn:hover {
+		background:url(../images/btn_download_1-1.jpg) no-repeat center;}
+	
+.khdbtn {
+	width:350px;
+	height:120px;
+	display:block;
+	background:url(../images/btn_download_2.jpg) no-repeat center;}
+	.khdbtn:hover {
+		background:url(../images/btn_download_2-1.jpg) no-repeat center;}
+	
+.zcbtn {
+	width:350px;
+	height:120px;
+	display:block;
+	background:url(../images/btn_register.jpg) no-repeat center;}
+	.zcbtn:hover {
+		background:url(../images/btn_register-1.jpg) no-repeat center;}
