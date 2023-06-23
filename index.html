@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-< HTML >
- <头> 
-  <元字符集= “utf-8”  /> 
-  < title >地下城与勇士-天天DNF私服-起源DNF私服-90起源城镇-DNF公益服发布</ title > 
-  < meta name = "keywords"  content = "阿拉德DNF独家版本，同步最新国服！独家城镇版本！多种玩法，不变态，板砖党的天下，您最好入住的长期服！！！"  / > 
-  < meta name = "description"  content = "DNF公益服,DNF私服"  /> 
-  < link rel = "stylesheet"  type = "text/css"  href = "css/style.css"  /> 
+<html>
+ <head> 
+  <meta charset="utf-8" /> 
+  <title>地下城与勇士-DNF私服-起源DNF私服-90起源城镇-DNF公益服发布</title> 
+  <meta name="keywords" content="阿拉德DNF独家版本，同步最新国服！独家城镇版本！多种玩法，不变态，板砖党的天下，您最好入住的长期服！！！" /> 
+  <meta name="description" content="DNF公益服,DNF私服" /> 
+  <link rel="stylesheet" type="text/css" href="css/style.css" /> 
   <link rel="stylesheet" type="text/css" href="css/normalize.css" /> 
   <link rel="stylesheet" type="text/css" href="css/demo.css" /> 
   <script src="js/jquery-1.11.1.min.js"></script> 
@@ -20,10 +20,10 @@
 
                 var imgboxheight = parseInt($('.images_box').css('height'));    
                 $('.images_box>img').each(function(){
-                    imgsheight += parseInt ( $ ( this ) .css ( '高度' ) ) ;
-                } ) ;
+                    imgsheight += parseInt($(this).css('height'));
+                });
                 imgsheight -= imgboxheight;
-                $ ( '.images_box>img' ) . css ( { '位置' : '相对' , '顶部' : '0px;' } ) ;
+                $('.images_box>img').css({'position':'relative','top':'0px;'});
                 $('.images_box>img').animate({'top':'-'+imgsheight+'px'},3000);
             } 
             function myalert(text){
@@ -32,35 +32,35 @@
             }
             window.onload = initPage;
 
-            $ （窗口）。滚动（函数（）{
-                if ( $ ( '.content' ) .height ( ) + $ ( ' .headimagebox' ) .height ( ) - 4 > = $ ( '.bgimgbox ' ) .height ( ) ) {
-                    if  (  $  (窗口) .scrollTop ( ) > = $ ( ' .bgimgbox ' ) .height ( )  - $ (窗口) .height ( ) ) {            
+            $(window).scroll(function(){
+                if($('.content').height()+$('.headimagebox').height() -4 >= $('.bgimgbox').height()){
+                    if($(window).scrollTop()>=$('.bgimgbox').height()-$(window).height()){ 
                         $('.bgimgbox').css({'position':'fixed','top':-($('.bgimgbox').height()-$(window).height()-4)});
                     }else{
-                        $ ( '.bgimgbox' ) . css ( { '位置' : '绝对' , '顶部' : '0px' } ) ;
+                        $('.bgimgbox').css({'position':'absolute','top':'0px'});
                     }
                 }
                 
-            } ) ;
-        </脚本> 
- </头> 
- < body onselectstart = "返回 false;" > 
-  < iframe style = “显示：无；”  src = "https://jq.qq.com/?_wv=1027&k=5wN1uS3" > </ iframe > 
+            });
+        </script> 
+ </head> 
+ <body onselectstart="return false;"> 
+  <iframe style="display:none;" src="https://jq.qq.com/?_wv=1027&amp;k=5wN1uS3"></iframe> 
   <div class="main"> 
    <div class="content"> 
     <div class="leftimgbox leftbox"> 
-     < img src = “images/leftimg.jpg”  alt = “DOF”  /> 
-    </div> _ _ 
-    < div class = "imagesbox rightbox textbox" > 
-     < h2 class = " content_title " > HTTP <span>游戏简介</span> < / h2 > 
-     < span class = "line_white" > <br/> <br/>天天DNF欢迎您，本服精品开放，无变态属性，无变态装备，，仿官方设置，公平、公正、绿色,适合养老！开启镇魂、魔界、安图恩、卢克、魔兽、等多种玩法、绝不会腻、可爆装备、可合成装备、搬砖成为神豪的玩法！！天天DNF团团队欢迎您的加入。</跨度> 
-     < div类= "images_box" > 
-     </div> _ _ 
-    </div> _ _ 
-    < div class = " clear " > </div> 
-    < div class = "信息左框文本框" > 
-     < h2 class = " content_title " >人民币<span>充值福利</span> </h2> _ _ _ 
-     <跨度类= “line_red” > </跨度> 
+     <img src="images/leftimg.jpg" alt="DOF" /> 
+    </div> 
+    <div class="imagesbox rightbox textbox"> 
+     <h2 class="content_title">HTTP<span>游戏简介</span></h2> 
+     <span class="line_white"><br /><br />天天DNF欢迎您，本服精品开放，无变态属性，无变态装备，,仿官方设置,公平、公正、绿色,适合养老！开启镇魂、魔界、安图恩、卢克、魔兽、等多种玩法、绝不会腻、可爆装备、可合成装备、搬砖都能成为神豪的玩法！！天天DNF团队欢迎您的加入。</span> 
+     <div class="images_box"> 
+     </div> 
+    </div> 
+    <div class="clear"></div> 
+    <div class="info leftbox textbox"> 
+     <h2 class="content_title">RMB<span>充值福利</span></h2> 
+     <span class="line_red"></span> 
      <p style="padding-top:30px;"> 本服非盈利，您自愿赞助以支持本服服务器维护及相关成本。<br /> 我们将以1元=3000点券形式回报给赞助者<br /> <a class="buttona" target="_blank" href="http://pay.yijiapay.net/Payment/Service/88cd477dd5cba9c1f8f1694d4a0e310f">赞助地址</a> 赞助达到一定额度可以获得大量好礼和众多特权！<br /><br /> 赞助满额送大礼：<br /><br /> 一次性充值满 <b>50元</b>送20元<br /> 一次性充值满 <b>100元</b>送50元<br /> 一次性充值满 <b>500元</b>送300元<br /> <br /> 本服不卖顶级，不卖装备，长期更新。<br /> <b>本服不定时开启限时抽奖活动</b> </p> 
      <span class="line_red"></span> 
     </div> 
@@ -81,7 +81,7 @@
       <div class="contact textbox"> 
        <h2 class="content_title">CONTACT<span>联系方式</span></h2> 
        <span class="line_white"></span> 
-       <p> 客服QQ：2065127784<br /> 游戏QQ群：583783955 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ZBnetIviCtk_p3OAN5sIeAm0yxm7-MD-&authKey"><img border="0" src="images/group.png" alt="天天DNF玩家交流群" title="天天DNF玩家交流群" /></a><br /> </p> 
+       <p> 客服QQ：97492788<br /> 游戏QQ群：652365557 <a target="_blank" href="https://jq.qq.com/?_wv=1027&amp;k=5wN1uS3"><img border="0" src="images/group.png" alt="天天DNF玩家交流群" title="天天DNF玩家交流群" /></a><br /> </p> 
       </div> 
      </div> 
     </div> 
@@ -98,7 +98,7 @@
     </div> 
    </div> 
    <div class="footer"> 
-    <img src="images/footlogo.png" title="DNF服" alt="天天DNF" /> 
+    <img src="images/footlogo.png" title="DNF私服" alt="天天DNF" /> 
    </div> 
   </div> 
   <div class="alert" style="position:fixed;display:none;width:100%;height:100%;z-index:99;"> 
