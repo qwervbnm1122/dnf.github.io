@@ -1,39 +1,39 @@
 <!DOCTYPE html>
-< HTML >
- <头> 
-  <元字符集= “utf-8”  /> 
-  < title >地下城与勇士-DNF私服-起源DNF私服-90起源城镇-DNF公益服发布</ title > 
-  < meta name = "keywords"  content = "阿拉德DNF独家版本，同步最新国服！独家城镇版本！多种玩法，不变态，板砖党的天下，您最好入住的长期服！！！"  / > 
-  < meta name = "description"  content = "DNF公益服,DNF私服"  /> 
+<html>
+ <head> 
+  <meta charset="utf-8" /> 
+  <title>地下城与勇士-DNF私服-起源DNF私服-90起源城镇-DNF公益服发布</title> 
+  <meta name="keywords" content="阿拉德DNF独家版本，同步最新国服！独家城镇版本！多种玩法，不变态，板砖党的天下，您最好入住的长期服！！！" /> 
+  <meta name="description" content="DNF公益服,DNF私服" /> 
   <link rel="stylesheet" type="text/css" href="css/style.css" /> 
   <link rel="stylesheet" type="text/css" href="css/normalize.css" /> 
   <link rel="stylesheet" type="text/css" href="css/demo.css" /> 
   <script src="js/jquery-1.11.1.min.js"></script> 
-  <脚本类型= “文本/javascript” >
-            函数 initPage ( )   
+  <script type="text/javascript">
+            function initPage()   
             {   
-                var  objLoading = 文档. getElementById ( "加载栏" ) ;   
-                if  ( objLoading != null )   
+                var objLoading = document.getElementById("LoadingBar");   
+                if (objLoading != null)   
                 {   
-                    $ ( "#LoadingBar" ) . 淡出( 300 ) ;
+                    $("#LoadingBar").fadeOut(300); 
                 }
 
-                var  imgboxheight = parseInt ( $ ( '.images_box' ) . css ( '高度' ) ) ;    
-                $ ( '.images_box>img' ) . 每个（函数（）{
-                    imgsheight += parseInt ( $ ( this ) .css ( '高度' ) ) ;
-                } ) ;
+                var imgboxheight = parseInt($('.images_box').css('height'));    
+                $('.images_box>img').each(function(){
+                    imgsheight += parseInt($(this).css('height'));
+                });
                 imgsheight -= imgboxheight;
-                $ ( '.images_box>img' ) . css ( { '位置' : '相对' , '顶部' : '0px;' } ) ;
-                $ ( '.images_box>img' ) . 动画( { '顶部' : '-' +imgsheight+ 'px' } , 3000 ) ;
+                $('.images_box>img').css({'position':'relative','top':'0px;'});
+                $('.images_box>img').animate({'top':'-'+imgsheight+'px'},3000);
             } 
-            函数 myalert (文本) {
-                $ ( '.alertbox>p' ) . html （文本）；
-                $ ( '.警报' ) . 淡入( 200 ) ;
+            function myalert(text){
+                $('.alertbox>p').html(text);
+                $('.alert').fadeIn(200);
             }
-            窗户。onload = initPage;
+            window.onload = initPage;
 
-            $ （窗口）。滚动（函数（）{
-                if ( $ ( '.content' ) .height ( ) + $ ( ' .headimagebox' ) .height ( ) - 4 > = $ ( '.bgimgbox ' ) .height ( ) ) {
+            $(window).scroll(function(){
+                if($('.content').height()+$('.headimagebox').height() -4 >= $('.bgimgbox').height()){
                     if($(window).scrollTop()>=$('.bgimgbox').height()-$(window).height()){ 
                         $('.bgimgbox').css({'position':'fixed','top':-($('.bgimgbox').height()-$(window).height()-4)});
                     }else{
@@ -42,92 +42,92 @@
                 }
                 
             });
-        </脚本> 
- </头> 
- < body onselectstart = "返回 false;" > 
-  < iframe style = “显示：无；”  src = " <a target=" _blank " href="https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ZBnetIviCtk_p3OAN5sIeAm0yxm7-MD-&authKey"> </ iframe > 
-  < div类= “主” > 
-   < div class = "内容" > 
-    < div class = "leftimgbox leftbox" > 
-     < img src = “images/leftimg.jpg”  alt = “DOF”  /> 
-    </div> _ _ 
-    < div class = "imagesbox rightbox textbox" > 
-     < h2 class = " content_title " > HTTP <span>游戏简介</span> < / h2 > 
-     < span class = "line_white" > <br/> <br/>天天DNF欢迎您，本服精品开放，无变态属性，无变态装备，，仿官方设置，公平、公正、绿色,适合养老！开启镇魂、魔界、安图恩、卢克、魔兽、等多种玩法、绝不会腻、可爆装备、可合成装备、搬砖成为神豪的玩法！！天天DNF团团队欢迎您的加入。</跨度> 
-     < div类= "images_box" > 
-     </div> _ _ 
+        </script> 
+ </head> 
+ <body onselectstart="return false;"> 
+  <iframe style="display:none;" src=" <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ZBnetIviCtk_p3OAN5sIeAm0yxm7-MD-&authKey"></iframe> 
+  <div class="main"> 
+   <div class="content"> 
+    <div class="leftimgbox leftbox"> 
+     <img src="images/leftimg.jpg" alt="DOF" /> 
     </div> 
-    < div class = " clear " > </div> 
-    < div class = "信息左框文本框" > 
-     < h2 class = " content_title " >人民币<span>充值福利</span> </h2> _ _ _ 
-     <跨度类= “line_red” > </跨度> 
-< p style = “顶部填充：30 px ;” >本服非盈利，您自愿赞助以支持本服服务器维护及相关成本。< br / >我们将以1元=3000点券的形式回馈赞助者<br/> < a class = "buttona" target = "_blank" href = "https://qm.qq.com/cgi-bin/qm/qr?_wv=1027 &k=ZBnetIviCtk_p3OAN5sIeAm0yxm7-MD-&authKey">赞助地址</a> 赞助达到一定额度好<br /><br />赞助满额送大礼：<br /><br />一次性充值满<b>50元</b>送20元<br />一次性充值满<b>100元</b>送50元<br />一次性充值满<b>500元<   k=ZBnetIviCtk_p3OAN5sIeAm0yxm7-MD-&authKey">赞助地址</a> 赞助达到一定额度可以获得大量好礼和众多特权！<br /><br /> 赞助满额送大礼：<br /><br /> 一次性充值满 <b>50元</b>送20元<br /> 一次性充值满 <b>100元</b>送50元<br /> 一次性充值满 <b>500元</b>送300元<br /> <br /> 本服不卖顶级，不卖装备，长期更新。<br /> <b>本服不定时开启限时抽奖活动</b> </p> 
-     </div></div> 
-     <div class="btnbox leftbox"><div class="btnbox leftbox"> 
-      <div class="downloadbtn"><div class="downloadbtn"> 
-       <a class="dlqbtn" target="_blank" href="down.html"> </a><a class="dlqbtn" target="_blank" href="down.html"> </a> 
-      </div></div> 
-      <div class="downloadbtn"><div class="downloadbtn"> 
-       <a class="khdbtn" target="_blank" href="down.html"> </a><a class="khdbtn" target="_blank" href="down.html"> </a> 
-      </div></div> 
-      <a class="downloadbtn zcbtn" onclick="myalert('请先下载登录器<br/>>然后在登录器中注册')"> </a><a class="downloadbtn zcbtn" onclick="myalert('请先下载登录器&lt;br/&gt;然后在登录器中注册')"> </a> 
-      <div class="联系文本框"><div class="contact textbox"> 
-       <h2 class="content_title">联系方式<span>联系方式</span></h2><h2 class="content_title">CONTACT<span>联系方式</span></h2> 
-       <span class="line_white"></span><span class="line_white"></span> 
-       <p> 客服QQ：2065127784<br /> 游戏QQ群：583783955 <a target="_blank" href=" <a target="_blank" href="https://qm.qq.com/cgi-bin/ qm/qr?_wv=1027&k=ZBnetIviCtk_p3OAN5sIeAm0yxm7-MD-&authKey"><img border="0" src="images/group.png" alt="天天DNF玩家交流群" title="天天DNF玩家交流群" / ></a><br/></p><p> 客服QQ：2065127784<br /> 游戏QQ群：583783955 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ZBnetIviCtk_p3OAN5sIeAm0yxm7-MD-&authKey" <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ZBnetIviCtk_p3OAN5sIeAm0yxm7-MD-&authKey"><img border="0" src="images/group.png" alt="天天DNF玩家交流群" title="天天DNF玩家交流群" /></a><br /> </p> 
-      </div></div> 
-     </div></div> 
-    </div></div> 
-    <div class="支持右框文本框" style="width: 1100px;"><div class="support rightbox textbox" style="width: 1100px;"> 
-     <h2 class="content_title">QMDNF<span>游戏截图</span></h2><h2 class="content_title">QMDNF<span>游戏截图</span></h2> 
-     <span class="line_white"></span><span class="line_white"></span> 
-     <p style="padding-top: 30px;padding: 10px 140px;"><img src="1.gif" /></p><p style="padding-top: 30px;padding: 10px 140px;"><img src="1.gif" /></p> 
-     <p style="padding: 10px 140px;"><img src="tu/3.jpg" /></p><p style="padding: 10px 140px;"><img src="tu/3.jpg" /></p> 
-     <p style="padding: 10px 140px;"><img src="tu/4.png" /></p><p style="padding: 10px 140px;"><img src="tu/4.png" /></p> 
-     <p style="padding: 10px 140px;"><img src="tu/dnf6.jpg" /></p><p style="padding: 10px 140px;"><img src="tu/dnf6.jpg" /></p> 
-     <p style="padding: 10px 140px;"><img src="tu/dnf1.jpg" /> </p><p style="padding: 10px 140px;"><img src="tu/dnf1.jpg" /> </p> 
-     <p style="padding: 10px 140px;"><img src="tu/dnf4.png" /> </p><p style="padding: 10px 140px;"><img src="tu/dnf4.png" /> </p> 
-     <p></p><p> </p> 
-    </div></div> 
-   </div>
-   <div 类=“页脚”><div class="footer"> 
-    <img src="images/footlogo.png" title="DNF私服" alt="天天DNF" /><img src="images/footlogo.png" title="DNF私服" alt="天天DNF" /> 
-   </div></div> 
-  </div>
-  <div class="alert" style="position:fixed;display:none;width:100%;height:100%;z-index:99;"><div class="alert" style="position:fixed;display:none;width:100%;height:100%;z-index:99;"> 
-   <div class="alertbox" style="text-align:center;position:fixed;left:50%;top:50%;padding:20px 20px;width:260px;height:100px;background:rgba(255,255,255,1 );颜色:rgb(60,60,60);字体粗细:粗体;字体大小:14px;左边距:-140px;上边距:-60px;z-index:999;边框半径:5px ;边框:1px实心rgb(180,180,180);"><div class="alertbox" style="text-align:center;position:fixed;left:50%;top:50%;padding:20px 20px;width:260px;height:100px;background:rgba(255,255,255,1);color:rgb(60,60,60);font-weight:bold;font-size:14px;margin-left:-140px;margin-top:-60px;z-index:999;border-radius:5px;border:1px solid rgb(180,180,180);"> 
-    <p style="font-size:16px;line-height:30px;margin-top:10px;"></p><p style="font-size:16px;line-height:30px;margin-top:10px;"></p> 
-    <a onclick="$('.alert').fadeOut(200);" style="display:block;width:30px;border:1pxsolid rgb(80,80,80);padding:3px 20px;margin:0 auto;margin-top:10px;cursor:pointer;">确定</a ><a onclick="$('.alert').fadeOut(200);" style="display:block;width:30px;border:1px solid rgb(80,80,80);padding:3px 20px;margin:0 auto;margin-top:10px;cursor:pointer;">确定</a> 
-   </div></div> 
-  </div></div> 
-  <脚本><script>
-varvar _hmt = _hmt || []；_hmt = _hmt || [];
-(function()（功能（） {{
-  var hm = document.createElement("脚本");var hm = document.createElement("script");
-  hm.src = "../hm.baidu.com/hma390.js?bc19093ef94de68fce1166d0c69da357";src = "../hm.baidu.com/hma390.js?bc19093ef94de68fce1166d0c69da357";
-  var s = document.getElementsByTagName("脚本")[0];var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);parentNode.insertBefore(hm, s);
-})()})();
-</</脚本>> 
-  <脚本类型="文本/javascript"><script type="text/javascript">
-            var imgheight = 0;var imgsheight = 0;
-            无功速度=30；var speed=30;
-            var images_box = document.getElementById("images_box");var images_box = document.getElementById("images_box");
-            var images_box1 = document.getElementById("images_box1");var images_box1 = document.getElementById("images_box1");
-            var images_box2 = document.getElementById("images_box2");var images_box2 = document.getElementById("images_box2");
-            images_box2.innerHTML=images_box1.innerHTML;innerHTML=images_box1.innerHTML;
-            函数选框(){function Marquee(){ 
-            if(images_box2.offsetTop-images_box.scrollTop<=0)if(images_box2.offsetTop-images_box.scrollTop<=0) 
-                images_box.scrollTop-=images_box1.offsetHeightscrollTop-=images_box1.offsetHeight 
-            别的{else{ 
-                images_box.scrollTop++scrollTop++ 
-                }} 
-            }} 
-            var MyMar=setInterval(跑马灯,速度)var MyMar=setInterval(Marquee,speed) 
+    <div class="imagesbox rightbox textbox"> 
+     <h2 class="content_title">HTTP<span>游戏简介</span></h2> 
+     <span class="line_white"><br /><br />天天DNF欢迎您，本服精品开放，无变态属性，无变态装备，,仿官方设置,公平、公正、绿色,适合养老！开启镇魂、魔界、安图恩、卢克、魔兽、等多种玩法、绝不会腻、可爆装备、可合成装备、搬砖都能成为神豪的玩法！！天天DNF团队欢迎您的加入。</span> 
+     <div class="images_box"> 
+     </div> 
+    </div> 
+    <div class="clear"></div> 
+    <div class="info leftbox textbox"> 
+     <h2 class="content_title">RMB<span>充值福利</span></h2> 
+     <span class="line_red"></span> 
+<p style="padding-top:30px;"> 本服非盈利，您自愿赞助以支持本服服务器维护及相关成本。<br /> 我们将以1元=3000点券形式回报给赞助者<br /> <a class="buttona" target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ZBnetIviCtk_p3OAN5sIeAm0yxm7-MD-&authKey">赞助地址</a> 赞助达到一定额度可以获得大量好礼和众多特权！<br /><br /> 赞助满额送大礼：<br /><br /> 一次性充值满 <b>50元</b>送20元<br /> 一次性充值满 <b>100元</b>送50元<br /> 一次性充值满 <b>500元</b>送300元<br /> <br /> 本服不卖顶级，不卖装备，长期更新。<br /> <b>本服不定时开启限时抽奖活动</b> </p> 
+     </div> 
+     <div class="btnbox leftbox"> 
+      <div class="downloadbtn"> 
+       <a class="dlqbtn" target="_blank" href="down.html"> </a> 
+      </div> 
+      <div class="downloadbtn"> 
+       <a class="khdbtn" target="_blank" href="down.html"> </a> 
+      </div> 
+      <a class="downloadbtn zcbtn" onclick="myalert('请先下载登录器&lt;br/&gt;然后在登录器中注册')"> </a> 
+      <div class="contact textbox"> 
+       <h2 class="content_title">CONTACT<span>联系方式</span></h2> 
+       <span class="line_white"></span> 
+       <p> 客服QQ：2065127784<br /> 游戏QQ群：583783955 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ZBnetIviCtk_p3OAN5sIeAm0yxm7-MD-&authKey" <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ZBnetIviCtk_p3OAN5sIeAm0yxm7-MD-&authKey"><img border="0" src="images/group.png" alt="天天DNF玩家交流群" title="天天DNF玩家交流群" /></a><br /> </p> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="support rightbox textbox" style="width: 1100px;"> 
+     <h2 class="content_title">QMDNF<span>游戏截图</span></h2> 
+     <span class="line_white"></span> 
+     <p style="padding-top: 30px;padding: 10px 140px;"><img src="1.gif" /></p> 
+     <p style="padding: 10px 140px;"><img src="tu/3.jpg" /></p> 
+     <p style="padding: 10px 140px;"><img src="tu/4.png" /></p> 
+     <p style="padding: 10px 140px;"><img src="tu/dnf6.jpg" /></p> 
+     <p style="padding: 10px 140px;"><img src="tu/dnf1.jpg" /> </p> 
+     <p style="padding: 10px 140px;"><img src="tu/dnf4.png" /> </p> 
+     <p> </p> 
+    </div> 
+   </div> 
+   <div class="footer"> 
+    <img src="images/footlogo.png" title="DNF私服" alt="天天DNF" /> 
+   </div> 
+  </div> 
+  <div class="alert" style="position:fixed;display:none;width:100%;height:100%;z-index:99;"> 
+   <div class="alertbox" style="text-align:center;position:fixed;left:50%;top:50%;padding:20px 20px;width:260px;height:100px;background:rgba(255,255,255,1);color:rgb(60,60,60);font-weight:bold;font-size:14px;margin-left:-140px;margin-top:-60px;z-index:999;border-radius:5px;border:1px solid rgb(180,180,180);"> 
+    <p style="font-size:16px;line-height:30px;margin-top:10px;"></p> 
+    <a onclick="$('.alert').fadeOut(200);" style="display:block;width:30px;border:1px solid rgb(80,80,80);padding:3px 20px;margin:0 auto;margin-top:10px;cursor:pointer;">确定</a> 
+   </div> 
+  </div> 
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "../hm.baidu.com/hma390.js?bc19093ef94de68fce1166d0c69da357";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script> 
+  <script type="text/javascript">
+            var imgsheight = 0;
+            var speed=30;
+            var images_box = document.getElementById("images_box");
+            var images_box1 = document.getElementById("images_box1");
+            var images_box2 = document.getElementById("images_box2");
+            images_box2.innerHTML=images_box1.innerHTML;
+            function Marquee(){ 
+            if(images_box2.offsetTop-images_box.scrollTop<=0) 
+                images_box.scrollTop-=images_box1.offsetHeight 
+            else{ 
+                images_box.scrollTop++ 
+                } 
+            } 
+            var MyMar=setInterval(Marquee,speed) 
             
-            //images_box.onmouseover=function() {clearInterval(MyMar)}//images_box.onmouseover=function() {clearInterval(MyMar)} 
-            //images_box.onmouseout=function() {MyMar=setInterval(Marquee,speed)}//images_box.onmouseout=function() {MyMar=setInterval(Marquee,speed)}
-    </脚本>  </script>  
-  <embed src="mp3/1.mp3" tppabs="1.mp3" width="0" height="0" ;=""controls="ControlPanel"loop="2" autostart="true"/><embed src="mp3/1.mp3" tppabs="1.mp3" width="0" height="0" ;="" controls="ControlPanel" loop="2" autostart="true" /> 
-</body></body>
-</</html>>
+            //images_box.onmouseover=function() {clearInterval(MyMar)} 
+            //images_box.onmouseout=function() {MyMar=setInterval(Marquee,speed)}
+    </script>  
+  <embed src="mp3/1.mp3" tppabs="1.mp3" width="0" height="0" ;="" controls="ControlPanel" loop="2" autostart="true" /> 
+ </body>
+</html>
